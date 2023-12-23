@@ -78,7 +78,7 @@ public class Utillities {
 		try {
 			FileHandler.copy(srcScreenshot, new File(destinationScreenshotPath));
 		} catch (IOException e) {
-
+ 
 			e.printStackTrace();
 		}return destinationScreenshotPath;
 

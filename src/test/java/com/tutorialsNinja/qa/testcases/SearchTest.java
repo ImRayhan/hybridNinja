@@ -36,7 +36,7 @@ public class SearchTest extends Base {
 
 	@Test(priority = 1)
 	public void verifySearchWithValidProduct() {
-		searchPage = homePage.searchForAProduct(dataProp.getProperty("RvalidProduct"));
+		searchPage = homePage.searchForAProduct(dataProp.getProperty("validProduct"));
 
 		Assert.assertTrue(searchPage.displayStatusOfHpValidProduct(), "hp product is not displayed");
 
